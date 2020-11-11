@@ -24,8 +24,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  /* String hexColor = '#eb34db';
- */
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(

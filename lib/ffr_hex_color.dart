@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 class FFRHexColor extends Color {
 
+  //Assuming we have a valid hexColor string  
   static int _getColorFromHex(String hexColor) {
     hexColor = hexColor.toUpperCase().replaceAll("#", "");
     if (hexColor.length == 6) {
